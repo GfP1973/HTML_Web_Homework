@@ -1,0 +1,87 @@
+/*some style development here*/
+
+body {
+    background: #2C3E50;
+}
+
+.box {
+    height: 50px;
+    width: 200px;
+    background: blue;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align:center;
+    top:0;
+    left:0;  
+    border: solid 2px silver;  
+}
+
+.nav-link {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+
+.container {
+    width:1024px;
+    margin: auto;
+}
+
+
+
+#main-content, #side-box {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#lattitude-plot {
+    width: 675px;
+    height: 450px;
+    position: relative;
+    padding: 6px 10px 10px 6px;
+}
+
+#humidity-plot, #cloudy-plot, 
+#windy-plot, #latty-plot {
+    width: 45%;
+    margin-top:15px;
+    margin-bottom:5px;
+    margin-left:10px;
+    margin-right:5px;
+    position: center relative;
+    float: left;
+}
+
+#main-writeup, #lattitude-plot {
+    float: left;
+}
+#main-writeup {
+    top: 10px;
+    width: 95%;
+    position: relative;
+    color: whitesmoke;
+    padding: 0 0 10px 10px; 
+}
+
+
+#main-content, #side-box {
+    padding-top:20px;
+    background: slategray;
+    border: solid 2px black;
+    }
+
+.carousel-item{
+    left:115px;
+}
+
+.table {
+    border-color: slateblue;
+    color: blue;
+    margin-left: 60px;
+    text-align: center;
+}
+
+#data-writeup {
+    color: whitesmoke;
+    margin-left: 10px;
+}

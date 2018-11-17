@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Web Visualization: Cloud Cover</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet"type="text/css" href="style.css">
+</head>
+
+<body>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <div class = "row" style = background-color:steelblue>
+        <div class="col-md-2">
+             <div class="box box-windy">Windspeed</div>
+        </div>
+        <div class="col-md-6"></div>
+        <div class="col-md-4">
+            <ul class="nav">
+                <li class="btn-group">
+                    <button type="button" class="btn btn-plots">Plots</button>
+                    <button type="button" class="btn btn-plots dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                 <div class="dropdown-menu">
+                  <a class="dropdown-item" href="Web_Homework_Latt.html">Lattitude</a>
+                  <a class="dropdown-item" href="Web_Homework_Humid.html">Humidity</a>
+                  <a class="dropdown-item" href="Web_Homework_Clouds.html">Cloudiness</a>
+                   <a class="dropdown-item" href="#">Windspeed</a>
+                <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="Homework_Landing_pg.html">Home</a>
+                </div>
+                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Web_Homework_Comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href="Web_Homework_Data.html">Data</a>
+                </li>
+            </ul>
+        </div>  
+        </div>
+    
+    <!-- row two -->
+ 
+    <div class= "row">
+    
+        <div class = "col-md-8">
+            <section id = "main-content">
+                <h2>Summary: Lattitude vs. Wind Velocity</h2>
+                <hr>                
+            </section>
+                <section id = "main-writeup">
+                    <section id = "figure-lt">
+                    <figcaption style = "color: whitesmoke"><em>Wind Velocity Plot</em></figcaption>
+                    <img id = "lattitude-plot" src="Fig4.png">
+                    </section>
+                <p>As the air near the surface of the earth becomes warmer, the particles becomes warmer, the the particles of the air move farther apart. 
+                    The air becomes lighter and rises. The lighter air pushes down on the surface of the earth with less pressure. A low-pressure area forms.
+                    Cold air is heavier than warm air. Its matter is more closely packed together. It pushes down harder on the earth's surface than warm air does.
+                    Therefore, a cold air mass is called a high-pressure area.Air temperature varies between day and night and from season to season due to changes in the heating Earth's atmosphere.
+                    Because of the sun's warming effect, there are more winds during the day. Air masses also differ in temperature. A warm front precedes a warm air mass. 
+                    Warm air is less dense than cold air, so warm air rides up and over the cold air, causing winds. Conversely, a cold front, the leading edge of a cold air mass, also creates wind. </p> 
+                </section>   
+                 
+        </div>
+        <div class = "col-md-4">
+            <section id= "side-box">
+                <h2>Visualizations</h2>
+                <hr>
+                <section id = "figure-collection">
+                    <article>
+                        <a target="_blank" href="Fig2.png">
+                        <img id ="humidity-plot" src="Fig2.png">
+                        </a>
+                        </article>
+                        <article>
+                        <a target="_blank" href="Fig3.png">
+                        <img id = "cloudy-plot" src = "Fig3.png">
+                         </a>
+                        </article>
+                        <article>
+                         <a target="_blank" href="Fig4.png">
+                        <img id = "windy-plot" src = "Fig4.png">
+                        </a>
+                        </article>
+                        <article>
+                        <a target="_blank" href="Fig1.png">
+                        <img id = "latty-plot" src="Fig1.png">
+                        </a>
+                        </article>
+                </section>
+            </section>
+        </div>
+   
+    </div>
+</body>
+</html>
